@@ -10,7 +10,7 @@ The goal of this game is to test your memory by remembering and repeating the se
 
 You can play the game here:
 
-👉 [Color Mania](https://gownivenkatcharan.github.io/Color-Mania/)
+👉 [Color Mania](https://chintucharan.github.io/simongame/)
 
 ---
 
