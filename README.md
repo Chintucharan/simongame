@@ -1,165 +1,91 @@
-# Color Mania 🎨🎮
+# Color Mania – Memory Sequence Game
 
-Welcome to **Color Mania**! This project is a fun memory game inspired by the classic Simon Says game, built using **HTML, CSS, and JavaScript**.
+A browser-based memory game inspired by the classic Simon Says game, built using HTML, CSS, and JavaScript. Players observe a randomly generated color sequence and reproduce it in the correct order as the difficulty increases.
 
-The goal of this game is to test your memory by remembering and repeating the sequence of colors shown by the game.
+## Live Demo
 
----
+**[Play Color Mania](https://chintucharan.github.io/simongame/)**
 
-## Play the Game 🔴🟡🟣🔵
+## Screenshots
 
-You can play the game here:
+<!-- Add actual gameplay screenshots here -->
+<!-- Example: ![Game Screenshot](assets/screenshot.png) -->
 
-👉 [Color Mania](https://chintucharan.github.io/simongame/)
+## Features
 
----
+- **Dynamic Sequence Generation:** Generates a random color sequence for each round.
+- **Progressive Difficulty:** Adds a new color to the sequence after each successful level.
+- **Interactive Gameplay:** Validates player input against the generated sequence.
+- **Visual Feedback:** Uses animations and flashing effects to distinguish game and player actions.
+- **Score Tracking:** Tracks the current level during gameplay.
+- **Game Restart:** Allows players to start a new game after a game-over event.
+- **Responsive Interface:** Supports desktop and mobile screen sizes.
 
-## How to Play 🎯
+## How to Play
 
-### 1. Start the Game
-- Press any key on the keyboard to start the game.
-- On mobile devices, click the **START** button.
-- The game will generate a random color sequence.
+1. Start the game using a keyboard key or the START button on supported mobile layouts.
+2. Observe the sequence of flashing colors.
+3. Repeat the sequence by clicking the corresponding color buttons.
+4. Complete each round to advance to the next level.
+5. One incorrect selection ends the game.
 
-### 2. Watch the Sequence
-- One of the four colored buttons will flash.
-- Carefully remember the order of the flashing colors.
+## Technologies
 
-### 3. Repeat the Sequence
-- Click the buttons in the same order as shown.
-- A green flash indicates your button click.
-- If the sequence is correct, the game moves to the next level.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Game structure |
+| CSS3 | Styling, layout, and animations |
+| JavaScript | Game logic, sequence generation, and input validation |
 
-### 4. Advance Levels
-- Each level adds one more color to the sequence.
-- The sequence becomes harder as the level increases.
-- Try to achieve the highest score possible.
+## Project Structure
 
-### 5. Game Over
-- If you click the wrong color, the game ends.
-- Your completed level will be displayed as your score.
-- Press any key or click START to play again.
-
----
-
-## Colors Used 🎨
-
-The game uses four colorful buttons:
-
-- 🔴 Red
-- 🔵 Blue
-- 🟣 Purple
-- 🟡 Yellow
-
----
-
-## Project Structure 🚀
-
-```
-Color-Mania/
-│
-├── index.html      # Main HTML file containing the game structure
-├── style.css       # CSS file for styling the game interface
-├── script.js       # JavaScript file containing the game logic
-└── README.md       # Project documentation
+```text
+simongame/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
----
+## Getting Started
 
-## Gameplay Mechanics ⚙️
-
-### Sequence Generation
-- The game randomly selects one of the four colors.
-- The selected color is added to the sequence.
-- The sequence becomes longer after every successful round.
-
-### User Input
-- Players click the colored buttons to repeat the generated sequence.
-- The game compares the player's input with the original sequence.
-- Correct answers allow the player to continue to the next level.
-
-### Visual Feedback
-- Game-generated colors flash with a white glowing effect.
-- User clicks show a green flash effect.
-- A game-over message appears when the wrong button is clicked.
-
-### Responsive Design
-- The game works on desktop, tablet, and mobile devices.
-- The layout automatically adjusts according to screen size.
-- Provides a smooth gaming experience across different devices.
-
----
-
-## Technologies Used 💻
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
-## Features ✨
-
-- Classic memory game experience
-- Random color sequence generation
-- Four colorful interactive buttons
-- Increasing difficulty levels
-- Score and level tracking
-- Game flash animations
-- User click animations
-- Responsive design
-- Simple and user-friendly interface
-
----
-
-## Installation and Usage 📥
-
-1. Clone this repository:
+Clone the repository:
 
 ```bash
-git clone https://github.com/gownivenkatcharan/Color-Mania.git
+git clone https://github.com/Chintucharan/simongame.git
 ```
 
-2. Navigate to the project folder:
+Navigate to the project directory:
 
 ```bash
-cd Color-Mania
+cd simongame
 ```
 
-3. Open `index.html` in your browser.
+Open `index.html` in your browser to play.
 
-4. Start playing the game.
+## Core Concepts Demonstrated
 
----
+- DOM manipulation and event handling
+- Arrays and random sequence generation
+- Conditional logic and input validation
+- Game state management
+- Asynchronous visual feedback using JavaScript timers
+- Responsive web design
 
-## About Me 👨‍💻
+## Future Improvements
 
-Hi! I'm **GOWNI VENKAT CHARAN**, a B.Tech student passionate about web development and creating interactive web applications.
+- Save and display the highest score using local storage.
+- Add sound effects for each color.
+- Introduce difficulty modes.
+- Add a leaderboard.
 
-I enjoy learning new technologies and building projects to improve my programming and problem-solving skills.
+## Author
 
----
+**Gowni Venkat Charan**
 
-## Author ✍️
-
-**GOWNI VENKAT CHARAN**
-
----
-
-## Acknowledgments 🙏
-
-- Thanks to the open-source community for providing valuable learning resources.
-- Thanks to GitHub Pages for hosting and deploying this project.
-- Inspired by the classic Simon Says memory game.
-
----
-
-## Feedback 📩
-
-If you have any feedback, suggestions, or improvements, feel free to contact me:
-
-📧 **gownivenkatcharan07@gmail.com**
+- GitHub: [Chintucharan](https://github.com/Chintucharan)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/gowni-venkat-charan-1b06562a8/)
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub!
+If you find this project useful, consider giving the repository a ⭐.
